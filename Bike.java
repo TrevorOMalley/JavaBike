@@ -21,8 +21,8 @@ class Bike {
         return size;
     }
 
-    public Frame getFrameMaterial(){
-        return frame;
+    public Material getFrameMaterial(){
+        return frame.getMaterial();
     }
 
     public double getWheelSize(){
