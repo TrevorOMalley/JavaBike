@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Bike myBike = new Bike("Red", "Medium", Material.ALUMINUM, 26.0);
-        Bike myBike2 = new Bike("Yellow", "Small", Material.Ti, 29.0);
-        Bike myBike3 = new Bike("Blue", "Medium", Material.STEEL, 27.5);
+        Bike myBike = new Bike("Red", 55.5, Material.ALUMINUM, 26.0);
+        myBike.setColor("Orange");
+        myBike.setSize(31.0);
+        Bike myBike2 = new Bike("Yellow", 57.0, Material.Ti, 29.0);
+        myBike2.setColor("Orange");
+        Bike myBike3 = new Bike("Blue", 88.0, Material.STEEL, 27.5);
         System.out.println("Bike color: " + myBike.getColor());
         System.out.println("Bike size: " + myBike.getSize());
         System.out.println("Frame material: " + myBike.getFrameMaterial());
