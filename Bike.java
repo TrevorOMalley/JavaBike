@@ -1,9 +1,35 @@
+/**
+
+ * Project: Lab 1
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Joe Oakes
+ * Date Developed:
+ * Last Date Changed:
+ * Rev:
+
+ */
+
 // Bike class
 class Bike {
+    /**
+     * The color of the bike
+     */
     private String color;
+    /**
+     * The size of the bike
+     */
     private double size;
     private Frame frame;
     private Wheel[] wheels;
+
+
+    /**
+     * Adds two numbers and returns the result.
+     *
+     * @param color This is the color of the bike frame.
+     * @param size This is the size of the bike frame.
+     */
     public Bike(String color, double size, Material frameMaterial, double wheelSize) {
         this.color = color;
         this.size = size;

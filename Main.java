@@ -1,3 +1,15 @@
+/**
+
+ * Project: Lab 1
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Joe Oakes
+ * Date Developed:
+ * Last Date Changed:
+ * Rev:
+
+ */
+
 public class Main {
     public static void main(String[] args) {
         Bike myBike = new Bike("Red", 55.5, Material.ALUMINUM, 26.0);
